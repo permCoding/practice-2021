@@ -4,10 +4,13 @@
 05.07-18.07.2021  
 [Запись занятия в BBB - длительность 03:10](https://bbb5.psaa.ru/playback/presentation/2.0/playback.html?meetingId=68138b70736d3d205e0052a8d69da7021b4ccea0-1625463940205)  
 
+Полезные ссылки:  
 [Из wfa в документ Word - видео на youtube](https://youtu.be/vQ7uW6g0z-U)  
 [Передать значения между формами - видео на youtube](https://youtu.be/29q1Lz8ErMc)  
 [Курсовик C# + MySQL - pdf-документ](https://pcoding.ru/pdf/CourseProject.pdf)  
 [Приложение github desktop](https://desktop.github.com/)  
+
+---  
 
 Первая встреча 05.07.2021 в 11:00. Длительность 2-3 пары.  
 
