@@ -3,7 +3,8 @@
 Проектно-технологическая практика 2021  
 05.07-18.07.2021  
 
-[Из wfa в документ Word](https://youtu.be/vQ7uW6g0z-U)   
+[Из wfa в документ Word](https://youtu.be/vQ7uW6g0z-U)  
+[Передать значения между формами](https://youtu.be/29q1Lz8ErMc)  
 [Курсовик C# + MySQL](https://pcoding.ru/pdf/CourseProject.pdf)  
 [github desktop](https://desktop.github.com/)  
 
