@@ -35,6 +35,11 @@ namespace Practice
 
         private void FormStart_Shown(object sender, EventArgs e)
         {
+            Task.Delay(100).ContinueWith(CheckConnection);
+        }
+
+        private void CheckConnection(Task obj)
+        {
             var conn = DbHelper.GetConn();
 
             try
@@ -50,12 +55,7 @@ namespace Practice
             finally 
             {
                 conn.Close();
-            }
-        }
-
-        private void CheckConnection(Task obj)
-        {
-            
+            }    
         }
     }
 }
