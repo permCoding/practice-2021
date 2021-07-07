@@ -14,9 +14,9 @@ namespace word_blank
             MySqlConnectionStringBuilder db = new MySqlConnectionStringBuilder();
 
             db.Server = "pgsha.ru"; // хостинг БД
-            db.Database = "practice"; // Имя БД
-            db.UserID = "practice"; // Имя пользователя БД
-            db.Password = "0000"; // Пароль пользователя БД
+			db.UserID = "soft0055"; // Имя пользователя БД
+            db.Database = "soft0055_practice"; // Имя БД
+            db.Password = "********"; // Пароль пользователя БД
             db.Port = 35006;
             db.CharacterSet = "utf8"; // Кодировка Базы Данных
 
