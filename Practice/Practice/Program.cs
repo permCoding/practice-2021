@@ -17,8 +17,8 @@ namespace Practice
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            //Application.Run(new FormStart());
-            Application.Run(new FormAutho());
+            Application.Run(new FormStart());
+            //Application.Run(new FormAutho());
         }
     }
 }
