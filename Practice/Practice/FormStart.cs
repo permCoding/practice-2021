@@ -20,17 +20,20 @@ namespace Practice
 
         private void btnReg_Click(object sender, EventArgs e)
         {
-			
+            this.Hide();
+            FormReg formReg = new FormReg();
+            formReg.Show();
+            formReg.FormClosed += this.formClosed;
         }
 		
         private void formClosed(object sender, FormClosedEventArgs e)
         {
-            
+            this.Show();
         }
 
         private void btnAuto_Click(object sender, EventArgs e)
         {
-            
+           // 
         }
 
         private void FormStart_Shown(object sender, EventArgs e)

@@ -25,7 +25,12 @@ namespace Practice
 
         private void btnAutho_Click(object sender, EventArgs e)
         {
+            // SELECT ищите пользователя
 
+            int id = 66;
+
+            Form4 form4 = new Form4(id);
+            form4.Show();
         }
 
         private void formClosed(object sender, FormClosedEventArgs e)

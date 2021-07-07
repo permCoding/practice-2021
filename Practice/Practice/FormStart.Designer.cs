@@ -34,6 +34,7 @@ namespace Practice
             this.btnReg = new System.Windows.Forms.Button();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.status1 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.button1 = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -41,7 +42,8 @@ namespace Practice
             // tableLayoutPanel1
             // 
             this.tableLayoutPanel1.ColumnCount = 1;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel1.Controls.Add(this.button1, 0, 3);
             this.tableLayoutPanel1.Controls.Add(this.btnAuto, 0, 1);
             this.tableLayoutPanel1.Controls.Add(this.btnReg, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.statusStrip1, 0, 2);
@@ -49,10 +51,11 @@ namespace Practice
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(2);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 3;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel1.RowCount = 4;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 36.84211F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 36.84211F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 23F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 26.31579F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(509, 258);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
@@ -62,10 +65,10 @@ namespace Practice
             this.btnAuto.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnAuto.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnAuto.ForeColor = System.Drawing.Color.Teal;
-            this.btnAuto.Location = new System.Drawing.Point(29, 131);
+            this.btnAuto.Location = new System.Drawing.Point(29, 100);
             this.btnAuto.Margin = new System.Windows.Forms.Padding(29, 14, 29, 29);
             this.btnAuto.Name = "btnAuto";
-            this.btnAuto.Size = new System.Drawing.Size(451, 74);
+            this.btnAuto.Size = new System.Drawing.Size(451, 43);
             this.btnAuto.TabIndex = 0;
             this.btnAuto.Text = "Авторизация";
             this.btnAuto.UseVisualStyleBackColor = true;
@@ -80,7 +83,7 @@ namespace Practice
             this.btnReg.Location = new System.Drawing.Point(29, 29);
             this.btnReg.Margin = new System.Windows.Forms.Padding(29, 29, 29, 14);
             this.btnReg.Name = "btnReg";
-            this.btnReg.Size = new System.Drawing.Size(451, 74);
+            this.btnReg.Size = new System.Drawing.Size(451, 43);
             this.btnReg.TabIndex = 0;
             this.btnReg.Text = "Регистрация";
             this.btnReg.UseVisualStyleBackColor = true;
@@ -90,7 +93,7 @@ namespace Practice
             // 
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.status1});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 236);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 173);
             this.statusStrip1.Name = "statusStrip1";
             this.statusStrip1.Padding = new System.Windows.Forms.Padding(1, 0, 16, 0);
             this.statusStrip1.Size = new System.Drawing.Size(509, 22);
@@ -103,6 +106,20 @@ namespace Practice
             this.status1.Name = "status1";
             this.status1.Size = new System.Drawing.Size(79, 17);
             this.status1.Text = "Соединение";
+            // 
+            // button1
+            // 
+            this.button1.AutoEllipsis = true;
+            this.button1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button1.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button1.ForeColor = System.Drawing.Color.Teal;
+            this.button1.Location = new System.Drawing.Point(29, 209);
+            this.button1.Margin = new System.Windows.Forms.Padding(29, 14, 29, 5);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(451, 44);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "Авторизация";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // FormStart
             // 
@@ -132,6 +149,7 @@ namespace Practice
         private System.Windows.Forms.Button btnAuto;
         private System.Windows.Forms.StatusStrip statusStrip1;
         private System.Windows.Forms.ToolStripStatusLabel status1;
+        private System.Windows.Forms.Button button1;
     }
 }
 
