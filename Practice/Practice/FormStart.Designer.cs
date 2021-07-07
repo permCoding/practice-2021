@@ -116,7 +116,6 @@ namespace Practice
             this.Name = "FormStart";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Учёт тем ВКР";
-            this.Load += new System.EventHandler(this.FormStart_Load);
             this.Shown += new System.EventHandler(this.FormStart_Shown);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();

@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-//using MySql.Data.MySqlClient;
+using MySql.Data.MySqlClient;
 
 namespace Practice
 {
@@ -33,14 +33,24 @@ namespace Practice
             
         }
 
-        private void FormStart_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void FormStart_Shown(object sender, EventArgs e)
         {
-            
+            var conn = DbHelper.GetConn();
+
+            try
+            {
+                conn.Open();
+                this.status1.Text = "Соединение установлено";
+            }
+            catch (Exception ex)
+            {
+                this.status1.Text = "Нет соединения";
+                MessageBox.Show("Нет соединения с БД\n\r" + ex.ToString());
+            }
+            finally 
+            {
+                conn.Close();
+            }
         }
 
         private void CheckConnection(Task obj)
