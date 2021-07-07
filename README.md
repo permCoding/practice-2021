@@ -9,6 +9,7 @@
 [Передать значения между формами - видео на youtube](https://youtu.be/29q1Lz8ErMc)  
 [Курсовик C# + MySQL - pdf-документ](https://pcoding.ru/pdf/CourseProject.pdf)  
 [Приложение github desktop](https://desktop.github.com/)  
+[Как расшарить приватный репозиторий на GitHub](https://pcoding.ru/pdf/shareGit.pdf)  
 
 ---  
 
