@@ -5,7 +5,7 @@
 
 [Запись занятия №1 в BBB 05.07. - длительность 03:10](https://bbb5.psaa.ru/playback/presentation/2.0/playback.html?meetingId=68138b70736d3d205e0052a8d69da7021b4ccea0-1625463940205)  
 
-[Запись занятия №2 в BBB 07.07. - длительность 02:00](https://bbb5.psaa.ru/playback/presentation/2.0/playback.html?meetingId=68138b70736d3d205e0052a8d69da7021b4ccea0-1625665753715)  
+[Запись занятия №2 в BBB 07.07. - длительность 02:33](https://bbb5.psaa.ru/playback/presentation/2.0/playback.html?meetingId=68138b70736d3d205e0052a8d69da7021b4ccea0-1625665753715)  
 
 Полезные ссылки:  
 [Из wfa в документ Word - видео на youtube](https://youtu.be/vQ7uW6g0z-U)  
