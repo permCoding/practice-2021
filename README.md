@@ -91,6 +91,64 @@ public static string CalculateMD5Hash(string input)
 }
 ```
 
+Способы как организовать асинхронный старт главной формы приложения и проверки соединения с БД.  
+
+Способ 1:  
+```
+private async void FormStart_Shown(object sender, EventArgs e)
+{
+    await Task.Run(() => CheckConnection());
+}
+
+private void CheckConnection()
+{
+    MySqlConnection conn = DbHelper.GetConn();
+
+    try
+    {
+        conn.Open();
+        this.status1.Text = "Подключение к БД установлено";
+    }
+    catch (Exception ex)
+    {
+        this.status1.Text = "Нет соединения с БД";
+        MessageBox.Show("Проблемы с подключением к БД \n\r" + ex.ToString());
+    }
+    finally
+    {
+        conn.Close();
+    }
+}
+```
+
+Способ 2:  
+```
+private void FormStart_Shown(object sender, EventArgs e)
+{
+    Task.Delay(100).ContinueWith(CheckConnection);
+}
+
+private void CheckConnection(Task obj)
+{
+    MySqlConnection conn = DbHelper.GetConn();
+
+    try
+    {
+        conn.Open();
+        this.status1.Text = "Подключение к БД установлено";
+    }
+    catch (Exception ex)
+    {
+        this.status1.Text = "Нет соединения с БД";
+        MessageBox.Show("Проблемы с подключением к БД \n\r" + ex.ToString());
+    }
+    finally
+    {
+        conn.Close();
+    }
+}
+```
+
 ---  
 
 ```
