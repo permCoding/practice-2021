@@ -94,7 +94,7 @@ public static string CalculateMD5Hash(string input)
 Способы как организовать асинхронный старт главной формы приложения и проверки соединения с БД.  
 
 Способ 1:  
-```
+```C#  
 private async void FormStart_Shown(object sender, EventArgs e)
 {
     await Task.Run(() => CheckConnection());
@@ -122,7 +122,7 @@ private void CheckConnection()
 ```
 
 Способ 2:  
-```
+```C#  
 private void FormStart_Shown(object sender, EventArgs e)
 {
     Task.Delay(100).ContinueWith(CheckConnection);
